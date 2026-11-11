@@ -1,0 +1,76 @@
+
+.details-page {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 35px;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
+  color: #333;
+}
+
+.details-page h1 {
+  color: #f56836;
+  text-align: center;
+  font-size: 38px;
+  margin-bottom: 15px;
+}
+
+.details-page > p {
+  text-align: center;
+  font-size: 18px;
+  color: #666;
+  margin: 10px;
+}
+
+.details-page hr {
+  margin: 25px 0;
+  border: 0;
+  border-top: 1px solid #eee;
+}
+
+.details-page h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.review-card {
+  padding: 18px;
+  margin: 15px 0;
+  background: #fff4ee;
+  border-radius: 10px;
+}
+
+.details-page form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 600px;
+}
+
+.details-page select,
+.details-page textarea {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.details-page textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.details-page button {
+  padding: 13px;
+  background: #f56836;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.details-page button:hover {
+  background: #df5125;
+}
